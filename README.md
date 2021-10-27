@@ -25,3 +25,7 @@ Lista:
 * Método removeUltimo: deverá remover o último nó da lista.
 * Método remove: deverá remover qualquer nó da lista, deverá passar este nó como parâmetro na chamada do método.
 * Método mostrar: deverá mostrar no console todos os itens da lista.
+
+
+
+![giphy](https://github.com/Giovanacarmazio/Estrutura_de_Dados/blob/6d0a1c71ab33a119b89e36264a310c5982f8dd22/y2meta.com%20-%20PUCPR%20-%20Estrutura%20de%20Dados.gif)
