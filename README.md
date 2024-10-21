@@ -1,31 +1,46 @@
-# Estrutura de Dados em Java: Lista
+# Data Structures Project
 
+Este repositório contém exemplos práticos de implementação e manipulação de diversas estruturas de dados, como listas, pilhas, filas, árvores e grafos. O objetivo é demonstrar como utilizar essas estruturas em diferentes contextos de programação e análise de dados.
 
-Uma Lista é uma estrutura de dados dinâmica, onde o número de nós de uma lista pode variar consideravelmente à medida que são inseridos e removidos os elementos. Cada elemento de uma lista encadeada (nó) é constituído de dois campos: valor e próximo elemento. Conforme foi apresentado na semana 4 a estrutura de dados, lista, e uma lista dinâmica de números inteiros em Java. A lista deverá possuir um objeto Nó (classe No) e ter os métodos listados abaixo:
+## Descrição do Projeto
 
-###### boolean vazia()
-###### void inserePrimeiro(int info)
-###### void insereDepois(No no, int info)
-###### void insereUltimo(int info)
-###### No removePrimeiro()
-###### No removeUltimo()
-###### No remove(No no)
-###### void mostrar()
+O projeto **Data Structures Project** explora as principais estruturas de dados utilizadas em ciência da computação e como aplicá-las para resolver problemas complexos de forma eficiente.
 
-Nó:  
-* Deverá possuir uma variável inteira e um objeto do mesmo tipo da classe, além dos métodos de get, set e próximo elemento.
+## Tecnologias Utilizadas
 
-Lista:
-* Deverá ter um objeto com o endereço do primeiro elemento da lista.
-* Método vazia: deverá verificar se a lista está vazia ou não.
-* Método inserePrimeiro: deverá inserir um valor no início da lista.
-* Método insereDepois: deverá inserir um valor depois de um nó específico da lista, deverá passar este nó como parâmetro na chamada do método.
-* Método insereUltimo: deverá inserir um valor no fim da lista.
-* Método removePrimeiro: deverá remover o primeiro nó da lista.
-* Método removeUltimo: deverá remover o último nó da lista.
-* Método remove: deverá remover qualquer nó da lista, deverá passar este nó como parâmetro na chamada do método.
-* Método mostrar: deverá mostrar no console todos os itens da lista.
+- **Python**
+- **Algoritmos de Estruturas de Dados**
 
+## Estrutura do Repositório
 
+- `implementations/`: Scripts Python com implementações de estruturas de dados.
+- `examples/`: Exemplos práticos de uso das estruturas.
+- `docs/`: Documentação técnica sobre cada estrutura de dados.
 
-![giphy](https://github.com/Giovanacarmazio/Estrutura_de_Dados/blob/6d0a1c71ab33a119b89e36264a310c5982f8dd22/y2meta.com%20-%20PUCPR%20-%20Estrutura%20de%20Dados.gif)
+## Como Executar o Projeto
+
+### Pré-requisitos
+
+- Python 3.7+
+- Instalar as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Passos para execução
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Giovanacarmazio/Estrutura_de_Dados.git
+   ```
+
+2. Execute os exemplos:
+   ```bash
+   python <nome_do_script>.py
+   ```
+
+## Contribuições
+
+Contribuições são bem-vindas! Abra *issues* ou envie *pull requests* para melhorias.
+
+```
